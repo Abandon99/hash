@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+a,button,header,img{
+        margin:0;
+        padding:0;
+        
+}
+
+.lo-main img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.lo-main {
+        /*width: 15rem;*/
+        display: flex;
+        flex-direction: column;
+        margin: 10rem auto;
+        width: 40rem;
+        text-align: center;
+        padding:0.5rem 6rem 4rem;
+        background-color: rgba(0, 84, 153, 0.75);
+        box-shadow: 0 0 40px 10px rgba(0, 166, 255, 0.42);
+        border-radius: 6px;
+}
+
+.lo-main h2 {
+        color:#54b4ed;
+        font-weight: bolder;
+}
+
+.lo-main input {
+        margin: 1.5rem 0;
+        padding:1rem 0.5rem 1rem 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        border-radius: 4px;
+        background: url("../images/登录_03.png") no-repeat;
+        background-color: #f1f1f1;;
+        border:1px ;
+        background-position: 0.5rem 50%;
+}
+
+.lo-main button {
+        background-color: rgba(3, 180, 244, 0.67);
+        border:none;
+        outline: none;
+        margin-top: 1.5rem;
+        padding: 0.3rem ;
+        border-radius: 7px;
+        color: #FFFFFF;
+        letter-spacing: 2px;
+        cursor: pointer;
+        font-size: 2rem;
+}
+
+button:active{
+        box-shadow: none;
+        outline: none;
+        background-color: #07c6ff;}
+
+.lo-main a {
+        color: #FFFFFF;
+        text-decoration: none;
+}
+
+.lo-main #error {
+        font-size: 1.2rem;
+        color: #d20000;
+        height: 1.4rem;
+        margin-top: -1rem;
+        margin-left: -50%;
+}
+

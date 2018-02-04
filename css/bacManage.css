@@ -1,0 +1,10 @@
+.side{
+    float: left;
+}
+.side ul{
+    border: 1px solid red;
+}
+.side li{
+    padding: 5px;
+    background-color: #e3e3e3;
+}

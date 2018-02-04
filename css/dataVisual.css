@@ -1,0 +1,13 @@
+
+.dataView{
+    
+    height: 500px;
+    margin: 30px 60px 0  10px;
+    border-radius: 6px;
+    border: 1px solid #c95800;
+    padding: 30px 10px;
+}
+
+h3 {
+    text-align: center;
+}
